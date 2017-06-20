@@ -1,0 +1,29 @@
+function countNum(){
+		var checkedObj = $('tbody tr .number');
+		var totalNum = 0;
+		checkedObj.each(function(){
+			var num = $(this).text();
+			num = parseFloat(num);
+			totalNum = + totalNum + num;
+			$('.numTotal').text(totalNum);
+		});
+	};
+
+
+
+
+任职资格    项目行业ERP  微信企业号开发
+
+1、熟练使用PHP语言和mysql数据库进行网站程序开发，有独立开发网站经验，有微信后台开发经验优先。 
+2、熟练掌握OOP开发，MVC架构，使用过并熟悉THINKPHP，熟练RESTful模式开发； 
+3、良好的编程习惯，结构清晰、命名规范、代码冗余率低。 
+4、熟练使用 Div、CSS、Javascript、Ajax并有和美工设计合作的经验。 
+5、了解Apache及Apache配置，了解Linux或Windows系统。 
+6、熟悉常见的PHP开源项目。 
+7、工作态度严谨，有良好的团队合作精神，能吃苦耐劳，有耐心，强烈责任心和工作激情； 
+8、拥有良好的工作习惯，自主学习能力强，能够不断接受新生事物，讲究工作方法和效率。
+
+加分项目： 
+1. 了解 Github 代码管理； 
+2. 了解Bootstrap、HTML5、CSS3、AngularJS、Node.JS等相关常用技术； 
+3. 有能体现个人相关技术水平的项目作品；
